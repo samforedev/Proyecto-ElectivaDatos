@@ -1,0 +1,7 @@
+Estrato,Nombre,Descripción,Subsidio o Contribución
+1,Bajo-Bajo,"Viviendas con infraestructura deficiente, ubicadas en zonas marginales con acceso limitado a servicios básicos.",Alto subsidio en servicios públicos.
+2,Bajo,"Viviendas con infraestructura básica adecuada, pero con algunas necesidades en servicios públicos y acceso a transporte.",Subsidio en servicios públicos.
+3,Medio-Bajo,"Viviendas en barrios con servicios adecuados y acceso al transporte público, con infraestructura aceptable.",No recibe subsidios ni contribuciones.
+4,Medio,Viviendas en barrios tradicionales con casas o apartamentos de tamaño medio y servicios completos.,Tarifa estándar en servicios públicos.
+5,Medio-Alto,"Viviendas en conjuntos residenciales con edificios de altura media y casas amplias, con acceso a servicios de alto nivel.",Contribuye al subsidio de los estratos bajos.
+6,Alto,Viviendas en condominios o apartamentos de lujo con amplios espacios y alta calidad en infraestructura.,Alta contribución al subsidio de estratos bajos.
