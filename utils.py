@@ -3,9 +3,9 @@ import seaborn as sns
 
 class data_utils():
     
-    @staticmethod
+    '''@staticmethod
     def get_basic_data(dataset):
-        return 'El dataset tiene {} filas y {} columas'.format(dataset.shape[0], dataset.shape[1])
+        return 'El dataset tiene {} filas y {} columas'.format(dataset.shape[0], dataset.shape[1])'''
 
     @staticmethod
     def generate_graphic(dataframe, x=None, y=None, kind='hist', figsize=(8, 6), config=None):
@@ -90,4 +90,15 @@ class data_utils():
         print(dataframe.describe())
         print(dataframe.nunique())
 
+class data_analytics():
+
+    ''' Return basic info from DataFrame '''
+    @staticmethod
+    def get_basic_info(df):
+        return 'El dataframe tiene {} filas y {} columnas'.format(df.shape[0], df.shape[1])
+
+
+    ''' Private Methods '''
+    def __print_dataframe_info(self, df):
+        print('')    
 
